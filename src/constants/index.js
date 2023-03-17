@@ -1,17 +1,25 @@
-export const Polls = [
+export const fakePolls = [
     {
         id: 'dkfjdk',
         title: 'what is your faverite programming language',
         description: 'there are a lot of popular programming language available, among them what is your favorite',
         options: [
-            {id: 'kdfjeiudfdrnvdnak', value: 'C Programming', vote: 0},
-            {id: 'kdfjeiderurnvdnak', value: 'Java', vote: 0},
-            {id: 'kdfjereiudnak', value: 'Python', vote: 0},
-            {id: 'kdeurnewvdnak', value: 'Javascript', vote: 0}
+            {id: 'kdfjeiudfdrnvdnak', value: 'C Programming', vote: 2},
+            {id: 'kdfjeiderurnvdnak', value: 'Java', vote: 1},
+            {id: 'kdfjereiudnak', value: 'Python', vote: 1},
+            {id: 'kdeurnewvdnakr', value: 'Javascript', vote: 3}
         ],
         created: new Date(),
-        totalVote: 0,
-        opinions: []
+        totalVote: 7,
+        opinions: [
+            {id: '1', name: 'Rohan Islam', description: 'i think javascript is my favorite'},
+            {id: '2', name: 'Emon Ahmed', description: 'i will just say c programming is best'},
+            {id: '3', name: 'Rouf', description: 'my favorite language is javascript'},
+            {id: '4', name: 'Hitlar Ali', description: 'python is my favorite language'},
+            {id: '5', name: 'Nasim Ahmed', description: 'there are a lot of language among them javascript is my favorite'},
+            {id: '5', name: 'Nasim Ahmed', description: 'c programming is best'},
+            {id: '5', name: 'Nasim Ahmed', description: 'i will choose java'}
+        ]
     },
     {
         id: 'dksfjdfddk',

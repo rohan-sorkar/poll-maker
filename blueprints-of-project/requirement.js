@@ -30,24 +30,22 @@ const requirementAnalysis = `
 (optionId) = null
 (opinion) = {id: '', name: '', opinion: ''}
 (selectedPoll) = null
+(isShownOpinions) = false
+(formState) = {title: '', description: ''}
+
 
 
 === list of handlers we need ===
-1. createPoll()
-2. updatePoll()
-3. deletePoll()
-4. inputChangeHandler()
-5. addOption()
-6. deleteOption()
-7. optionChangeHandler()
-8. handleFormSubmit()
-9. addOptionId()
-10. opinionChangeHandler()
-11. addVote()
-12. getOpinions()
-13. openModal()
-14. closeModal()
-15. searchInputChange()
-16. performSearch()
-17. selectPollHandler()
+- createPoll()
+- updatePoll()
+- deletePoll()
+- searchInputChange()
+- selectPoll()
+- submitVote()
+- performSearch()
+- changeUserOpinion()
+- inputChangeHandler()
+- addOption()
+- deleteOption()
+- optionChangeHandler()
 `
